@@ -6,7 +6,7 @@
 # anything or bad things will happen !
 
 : ${HOME:=/sdcard}
-: ${HOSTNAME:=$(getprop ro.cm.device)}
+: ${HOSTNAME:=$(getprop ro.mk.device)}
 : ${TERM:=linux}
 : ${TMPDIR:=/data/local/tmp}
 : ${USER:=$(id -un)}
